@@ -44,3 +44,5 @@ PlatziMath.calculateModa = function claculateModa(list) {
   
   return `La moda de nuestra lista es ${moda}`;
 }
+
+console.log(PlatziMath);
