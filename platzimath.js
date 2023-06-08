@@ -20,7 +20,6 @@ PlatziMath.calculateMedian = function calculateMedian(listDes) {
     return PlatziMath.calculateAverage([list[index], list[index + 1]]);
   } else {
     const index = Math.floor(list.length / 2);
-    console.log(list[index]);
     return list[index];
   }
 }
@@ -44,5 +43,3 @@ PlatziMath.calculateModa = function claculateModa(list) {
   
   return `La moda de nuestra lista es ${moda}`;
 }
-
-console.log(PlatziMath);
